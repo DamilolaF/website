@@ -1,7 +1,9 @@
-import {Link, Navlink} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 import Logo from '../images/logo.png'
 import {links} from '../data'
+import {FaBars} from 'react-icons/fa6'
 import './navbar.css'
+
 
 
 const Navbar = () => {
@@ -16,13 +18,15 @@ const Navbar = () => {
                     links.map(({name, path}, index) => {
                      return (
                         <li>
-                            <Navlink to={path}>{name}</Navlink>
+                            <NavLink to={path}>{name}</NavLink>
                         </li>
                      )   
                     })
                 }
            </ul>
-           nav buttons 
+           <button className="nav_toggle-btn">
+            <FaBars />
+           </button>
         </div>
     </nav>
   )
