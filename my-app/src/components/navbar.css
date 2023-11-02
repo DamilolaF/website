@@ -1,0 +1,18 @@
+nav {
+    height:  5rem;
+    width: 100vw;
+    background: var(--color-primary);
+    display: grid;
+    place-items: center;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.nav_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
