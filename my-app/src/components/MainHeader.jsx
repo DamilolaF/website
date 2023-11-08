@@ -1,7 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Image from '../images/main_header.png'
 
-const Header = () => {
+const MainHeader = () => {
   return (
     <header className='main_header'>
       <div className="container mainheader_container">
@@ -14,10 +15,16 @@ const Header = () => {
           </p>
             <Link to="/plans" className='btn lg'>Get Started</Link>
         </div>
-        <div className="mainheader_right"></div>
+        <div className="mainheader_right">
+          <div className="mainheader_circle">
+            <div className="mainheader_image">
+              <img src={Image} alt="Main Header Image" />
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   )
 }
 
-export default Header
+export default MainHeader

@@ -1,0 +1,29 @@
+.mainheader{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+
+.mainheader_container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.mainheader_left{
+    margin-top: -3rem;
+}
+.mainheader_left h4 {
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+    font-weight: 400;
+}
+.mainheader_left p {
+    margin: 1rem 0 3.5rem;
+    font-size: 1.1rem;
+}
