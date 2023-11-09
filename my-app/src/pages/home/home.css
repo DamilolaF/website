@@ -1,4 +1,4 @@
-.mainheader{
+.main_header{
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -26,4 +26,9 @@
 .mainheader_left p {
     margin: 1rem 0 3.5rem;
     font-size: 1.1rem;
+}
+.mainheader_right {
+    display: grid;
+    place-items: center;
+    position: relative;
 }
