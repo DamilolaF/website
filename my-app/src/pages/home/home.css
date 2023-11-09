@@ -1,6 +1,6 @@
 .main_header{
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 3rem);
     display: grid;
     place-items: center;
     margin-top: 3rem;
@@ -32,3 +32,19 @@
     place-items: center;
     position: relative;
 }
+.mainheader_circle {
+    width: 25rem;
+    height: 25rem;
+    background: linear-gradient(75deg, 
+    var(--color-secondary), transparent);
+    border-radius: 50%;
+    position: absolute;
+    transition: var(--transition);
+}
+.mainheader_image{
+    position: relative;
+}
+.main_header:hover .mainheader_circle {
+    filter: blur(15px);
+}
+

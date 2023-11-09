@@ -16,11 +16,10 @@ const MainHeader = () => {
             <Link to="/plans" className='btn lg'>Get Started</Link>
         </div>
         <div className="mainheader_right">
-          <div className="mainheader_circle">
+          <div className="mainheader_circle"></div>
             <div className="mainheader_image">
               <img src={Image} alt="Main Header Image" />
             </div>
-          </div>
         </div>
       </div>
     </header>
