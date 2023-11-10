@@ -44,7 +44,7 @@
 .mainheader_image{
     position: relative;
 }
-.main_header:hover .mainheader_circle {
+.mainheader_right:hover .mainheader_circle {
     filter: blur(15px);
 }
 
