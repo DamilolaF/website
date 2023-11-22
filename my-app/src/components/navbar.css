@@ -4,12 +4,15 @@ nav {
     background: var(--color-primary);
     display: grid;
     place-items: center;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     z-index: 99;
 }
 
+.nav_toggle-btn {
+    display: none;
+}
 .nav_container{
     height: 100%;
     display: flex;
@@ -59,7 +62,7 @@ nav {
             cursor: pointer;
         }
         .nav_toggle-btn svg {
-            color: var(-color-gray-100);
+            color: var(--color-gray-100);
         }
         .nav_links{
             position: absolute;
@@ -106,7 +109,7 @@ nav {
             }
         }
 
-        .nav_links   li a {
+        .nav_links li a {
             background-color: var(--color-primary);
             height: 100%;
             width: 100%;
